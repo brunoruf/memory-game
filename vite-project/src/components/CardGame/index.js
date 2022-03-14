@@ -1,7 +1,11 @@
+import "./style.css";
+
+
+
 const CardGame = () => {
     return `
-        <article>
-            CardGame OI
+        <article class="card-game">
+            <img src="images/cuphead.png" alt="Cuphead">
         </article>
     `;
 }
