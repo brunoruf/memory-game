@@ -1,17 +1,12 @@
-/* import './style.css'
+// CSS Imports
+import "./src/styles/settings/colors.css";
+import "./src/styles/elements/base.css";
+import "./src/styles/generic/reset.css";
 
-document.querySelector('#root').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
-*/
-
-import "./src/components/styles/settings/colors.css";
-import "./src/components/styles/elements/base.css";
-
+// Components Imports
 import CardGame from "./src/components/CardGame";
-const $root = document.querySelector("#root");
-const $htmlCardGame = CardGame()
 
+const $htmlCardGame = CardGame()
+const $root = document.querySelector("#root");
 
 $root.insertAdjacentHTML("beforeend", $htmlCardGame);
