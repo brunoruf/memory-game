@@ -5,6 +5,7 @@
   height: 160px;
   transform: rotateY(0deg);
   transition: 1s cubic-bezier(0.42, 0, 0.35, 1.68);
+  cursor: pointer;
 }
 
 .card-front-back.active {
@@ -20,4 +21,8 @@
   position: absolute;
   backface-visibility: hidden;
   transform: rotateY(180deg);
+}
+
+#zaz {
+  background-color: aquamarine;
 }
