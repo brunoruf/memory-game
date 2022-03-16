@@ -5,7 +5,7 @@ const CardFrontBack = () => {
     return /*html*/`
         <div>
             ${CardTemplate()}
-            ${CardTemplate()}
+            ${CardTemplate('cuphead', 'CupHead')}
         </div>
     `
 }

@@ -1,12 +1,11 @@
 import "./style.css";
 
 
-const CardTemplate = () => {
+const CardTemplate = (image="card-closed", alt="?") => {
     return /*html*/`
         <article class="card-game">
-            <img src="images/cuphead.png" alt="Cuphead">
+            <img src="images/${image}.png" alt="${alt}">
         </article>
-
     `;
 }
 
