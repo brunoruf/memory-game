@@ -1,11 +1,11 @@
+import "./style.css"
 import CardTemplate from "../CardTemplate"
-
 
 const CardFrontBack = () => {
     return /*html*/`
-        <div>
-            ${CardTemplate()}
-            ${CardTemplate('cuphead', 'CupHead')}
+        <div class="card-front-back">
+            <div class="card-front">${CardTemplate()}</div>
+            <div class="card-back">${CardTemplate('cuphead', 'CupHead')}</div>
         </div>
     `
 }

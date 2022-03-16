@@ -1,9 +1,10 @@
 .board-game {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    background-color: rgb(11, 17, 70);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  background-color: rgb(11, 17, 70);
+  perspective: 600px;
 }

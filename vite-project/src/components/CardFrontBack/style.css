@@ -1,0 +1,23 @@
+.card-front-back {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 130px;
+  height: 160px;
+  transform: rotateY(0deg);
+  transition: 1s cubic-bezier(0.42, 0, 0.35, 1.68);
+}
+
+.card-front-back.active {
+  transform: rotateY(180deg);
+}
+
+.card-front-back > .card-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card-front-back > .card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
