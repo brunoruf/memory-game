@@ -1,10 +1,16 @@
 .player-score {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #FFF;
-    margin-left: -2px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #fff;
+  margin-left: -2px;
 }
 
 .score-wrapper {
-    display: flex;
+  display: flex;
+}
+
+.versus {
+  color: var(--color-white);
+  font-size: 2rem;
+  margin: -5px 0.4rem 0 0.4rem;
 }

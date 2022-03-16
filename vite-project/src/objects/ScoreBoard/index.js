@@ -5,7 +5,10 @@ import PlayerScore from "../../components/PlayerScore"
 const ScoreBoard = () => {
     return /*html*/`
     <div class="score-board">
+    <div class="arrow-player"><img src="../images/arrow-down.png"></div>
         ${PlayerName('Papai')}
+        ${PlayerScore()}
+        <div class="versus">x</div>
         ${PlayerScore()}
         ${PlayerName('Luli')}
     </div>

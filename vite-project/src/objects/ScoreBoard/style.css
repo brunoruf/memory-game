@@ -1,5 +1,13 @@
 .score-board {
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 20px;
+  position: relative;
+}
+
+.arrow-player {
+  position: absolute;
+  top: -26px;
+  margin-right: 75%;
 }

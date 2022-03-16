@@ -8,3 +8,7 @@
   box-shadow: rgba(255, 217, 0, 0.493) 0px 4px 12px 0px;
   display: flex;
 }
+
+.card-game img {
+  border-radius: 8px;
+}

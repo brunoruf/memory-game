@@ -1,9 +1,11 @@
 .container {
-    max-width: 320px;
-    background-color: var(--color-background);
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    font-family: 'Road Rage', cursive;
+  max-width: 320px;
+  background-color: var(--color-background);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  font-family: "Road Rage", cursive;
 }
-
