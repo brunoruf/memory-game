@@ -2,7 +2,7 @@ import "./style.css";
 
 
 const CardTemplate = () => {
-    return `
+    return /*html*/`
         <article class="card-game">
             <img src="images/cuphead.png" alt="Cuphead">
         </article>

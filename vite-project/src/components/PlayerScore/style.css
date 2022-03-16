@@ -1,0 +1,10 @@
+.player-score {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FFF;
+    margin-left: -2px;
+}
+
+.score-wrapper {
+    display: flex;
+}

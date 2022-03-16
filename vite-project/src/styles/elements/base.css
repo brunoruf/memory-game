@@ -3,4 +3,7 @@
     background-color: var(--color-background);
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    font-family: 'Road Rage', cursive;
 }
+

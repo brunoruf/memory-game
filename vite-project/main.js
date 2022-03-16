@@ -5,13 +5,16 @@ import "./src/styles/generic/reset.css";
 
 // Components Imports
 
-import PlayerName from "./src/components/PlayerName";
+import ScoreBoard from "./src/objects/ScoreBoard";
 import BoardGame from "./src/objects/BoardGame";
 
 
-const $htmlBoardGame = BoardGame(6)
-const $playerName = PlayerName()
 const $root = document.querySelector("#root");
 
 
-$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
+$root.insertAdjacentHTML("beforeend", 
+    `
+    ${ScoreBoard()}
+    ${BoardGame(2)}
+    `
+)
