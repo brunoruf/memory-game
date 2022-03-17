@@ -1,8 +1,8 @@
 import "./style.css"
 
-const PlayerScore = () => {
-    return `
-        <div class="score-wrapper">
+const PlayerScore = (points = 0) => {
+    return /*html*/`
+        <div data-points ="${points}" class="score-wrapper">
             <div class="player-score"></div>
             <div class="player-score"></div>
             <div class="player-score"></div>
