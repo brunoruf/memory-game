@@ -3,11 +3,11 @@ import CardTemplate from "../CardTemplate"
 
 
 
-const CardFrontBack = () => {
+const CardFrontBack = (image, alt) => {
     return /*html*/`
         <div class="card-front-back" onClick="cardFrontBack.handleClick(event)">
             <div class="card-front">${CardTemplate()}</div>
-            <div class="card-back">${CardTemplate('cuphead', 'CupHead')}</div>
+            <div class="card-back">${CardTemplate(image, alt)}</div>
         </div>`
 
 }
