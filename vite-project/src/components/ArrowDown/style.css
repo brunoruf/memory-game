@@ -1,0 +1,11 @@
+.arrow-player {
+  position: absolute;
+  top: -26px;
+  margin-right: 75%;
+  transition: ease-in-out 1s;
+}
+
+.arrow-player[data-currentPlayer="2"] {
+  margin-right: -80%;
+  transition: ease-in-out 1s;
+}

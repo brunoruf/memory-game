@@ -1,11 +1,12 @@
 import "./style.css"
 import PlayerName from "../../components/PlayerName"
 import PlayerScore from "../../components/PlayerScore"
+import ArrowDown from "../../components/ArrowDown"
 
 const ScoreBoard = () => {
     return /*html*/`
     <div class="score-board">
-    <div class="arrow-player"><img src="../images/arrow-down.png"></div>
+        ${ArrowDown(1)}
         ${PlayerName('Papai')}
         ${PlayerScore(1)}
         <div class="versus">x</div>
