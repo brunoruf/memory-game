@@ -1,16 +1,44 @@
+.score-wrapper {
+  display: flex;
+  border: 2px solid #6d69e5;
+  padding-left: 2px;
+}
+
 .player-score {
   width: 14px;
   height: 14px;
   border: 2px solid #fff;
   margin-left: -2px;
+  background: #cec0dcba;
 }
 
-.score-wrapper {
-  display: flex;
+.score-wrapper[data-points="1"] > .player-score:first-child {
+  background-color: #6d69e5;
+}
+
+.score-wrapper[data-points="2"] {
+  flex-direction: row-reverse;
+}
+
+.score-wrapper[data-points="3"] {
+  flex-direction: row-reverse;
+}
+
+.score-wrapper[data-points="2"] > .player-score:nth-child(n + 3) {
+  background-color: #6d69e5;
+}
+
+.score-wrapper[data-points="3"] > .player-score:nth-child(n + 2) {
+  background-color: #6d69e5;
+}
+
+.score-wrapper[data-points="4"] > .player-score:nth-child(n + 1) {
+  background-color: #6d69e5;
 }
 
 .versus {
   color: var(--color-white);
-  font-size: 2rem;
+  font-size: 4rem;
   margin: -5px 0.4rem 0 0.4rem;
+  color: #6d69e5;
 }

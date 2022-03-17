@@ -7,9 +7,9 @@ const ScoreBoard = () => {
     <div class="score-board">
     <div class="arrow-player"><img src="../images/arrow-down.png"></div>
         ${PlayerName('Papai')}
-        ${PlayerScore()}
+        ${PlayerScore(1)}
         <div class="versus">x</div>
-        ${PlayerScore()}
+        ${PlayerScore(3)}
         ${PlayerName('Luli')}
     </div>
     `

@@ -1,6 +1,6 @@
 .player-name {
     color: var(--color-white);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: .1rem;
 }
